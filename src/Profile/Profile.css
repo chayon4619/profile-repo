@@ -1,0 +1,45 @@
+.text-120 {
+    font-size: 120px;
+}
+
+.profile-card {
+    background-color: #227bff;
+    width: 350px;
+    margin: 0 auto;
+    height: 480px;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    border-radius: 5px;
+    box-shadow: 4px -2px 23px -6px black;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.border-2 {
+    border: 2px solid #ddd;
+}
+
+.text-spacing {
+    letter-spacing: 2px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #111;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+    transition: all .2s;
+}
