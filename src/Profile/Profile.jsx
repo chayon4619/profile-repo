@@ -8,8 +8,8 @@ const Profile = () => {
     return (
         <Container fluid className="vh-100 position-relative">
             <Row className="vh-100">
-                <Col className=" bg-black"></Col>
-                <Col className="text-center d-flex justify-content-center align-items-center">
+                <Col className=" bg-black black-section"></Col>
+                <Col className="text-center d-flex justify-content-center align-items-center" >
                     <div>
                         <h1 className="fw-bolder text-120">
                             HI<span className="text-primary">!</span>
@@ -23,7 +23,7 @@ const Profile = () => {
                                 Projects
                             </Button>
                         </div>
-                        <div className=" ms-5 text-justify">
+                        <div className="ms-md-5 text-justify">
                             <p>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                 Eligendi necessitatibus esse similique dolore eveniet facere
@@ -41,7 +41,7 @@ const Profile = () => {
                 </Col>
             </Row>
 
-            <div className="profile-card ">
+            <div className="profile-card">
                 <div>
                     <div className="d-flex justify-content-center align-items-center">
                         <div className="pt-5">
@@ -61,7 +61,7 @@ const Profile = () => {
                     <hr className="w-75 mx-auto text-white border-2" />
                     <p className="text-center fw-medium text-spacing">PROJECT MANAGER</p>
                 </div>
-                <div className="bg-white d-flex justify-content-center align-items-center gap-3 py-2 position-absolute bottom-0 w-100">
+                <div className="bg-white icons d-flex justify-content-center align-items-center gap-3 py-2 position-absolute md-bottom-0 w-100">
                     <div className="social-icon">
                         <FaFacebookF className="fs-5" />
                     </div>
